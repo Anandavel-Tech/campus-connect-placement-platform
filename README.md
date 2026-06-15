@@ -40,3 +40,22 @@ $files = Get-ChildItem -Path src -Recurse -Filter *.java | ForEach-Object { $_.F
 javac -cp "lib\gson-2.10.1.jar" -d bin $files
 java -cp "bin;lib\gson-2.10.1.jar" Main
 ```
+
+
+# Project Screenshots
+
+## Admin Dashboard
+
+![Admin Dashboard](Screenshot/Admin%20Dashboard.png)
+
+## Student Dashboard
+
+![Student Dashboard](Screenshot/student-dashboard.png)
+
+## Recruiter Dashboard
+
+![Recruiter Dashboard](Screenshot/Recruiter%20Dashboard.png)
+
+## Browse Jobs
+
+![Browse Jobs](Screenshot/Browse%20Jobs.png)
