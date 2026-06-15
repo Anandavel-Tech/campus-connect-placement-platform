@@ -1,0 +1,7 @@
+NOTIF1781507648540|U1781507435802|Helooo All !!!
+|1781507648543|false|broadcast
+NOTIF1781507648549|ADMIN001|Helooo All !!!
+|1781507648549|false|broadcast
+NOTIF1781508771410|DEMO_STUDENT|You have successfully applied for job JOB_DEMO_1|1781508771413|false|application
+NOTIF1781531041865|DEMO_STUDENT|You have successfully applied for job JOB_DEMO_2|1781531041865|false|application
+NOTIF1781531192565|U1781531159928|You have successfully applied for job JOB_DEMO_1|1781531192565|false|application

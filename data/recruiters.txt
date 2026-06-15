@@ -1,0 +1,2 @@
+U1781507435802|ANAND|anandavel2k6@gmail.com|123456789|recruiter|true|YaazhTech|AI software Building|false
+DEMO_RECRUITER|Deepa Krishnan|recruiter@campusconnect.com|recruiter123|recruiter|true|Tata Consultancy Services|Technology consulting and services|true

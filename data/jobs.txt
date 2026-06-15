@@ -1,0 +1,4 @@
+JOB_DEMO_1|Software Engineer - Java|Build enterprise applications using Java and Spring Boot.|Java, Spring Boot, SQL, REST APIs|9.00|CGPA 7.0+|DEMO_RECRUITER|Tata Consultancy Services|true
+JOB_DEMO_2|Data Analyst|Analyze large datasets and create clear business dashboards.|Python, SQL, Pandas, Power BI|7.50|CGPA 7.5+|DEMO_RECRUITER|Infosys|true
+JOB_DEMO_3|Machine Learning Engineer|Develop and evaluate machine learning services for production.|Python, TensorFlow, PyTorch, MLOps|13.00|CGPA 8.0+|DEMO_RECRUITER|Infosys|true
+JOB_DEMO_4|DevOps Engineer|Automate cloud infrastructure and delivery pipelines.|Docker, Kubernetes, Jenkins, AWS, Linux|11.00|CGPA 7.5+|DEMO_RECRUITER|Tata Consultancy Services|true

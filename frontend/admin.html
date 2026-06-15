@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - Campus Connect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="admin-page">
+        <h1>Admin Dashboard</h1>
+        
+        <div class="stats-grid" id="stats-container">
+            <!-- Statistics will be loaded here -->
+        </div>
+        
+        <div class="admin-section">
+            <h2>Users Management</h2>
+            <div id="users-list">
+                <!-- Users list will be loaded here -->
+            </div>
+        </div>
+        
+        <div class="admin-section">
+            <h2>Broadcast Message</h2>
+            <textarea id="broadcast-message" rows="3" placeholder="Enter message to broadcast to all users..."></textarea>
+            <button onclick="sendBroadcast()" class="btn-primary">Send Broadcast</button>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

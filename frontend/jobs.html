@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobs - Campus Connect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="jobs-page">
+        <div class="page-header">
+            <h1>Job Listings</h1>
+            <div class="filters">
+                <input type="text" id="search-input" placeholder="Search jobs..." onkeyup="searchJobs()">
+                <select id="skill-filter" onchange="filterJobs()">
+                    <option value="">Filter by Skill</option>
+                </select>
+            </div>
+        </div>
+        
+        <div id="jobs-container" class="jobs-grid">
+            <!-- Jobs will be loaded here -->
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

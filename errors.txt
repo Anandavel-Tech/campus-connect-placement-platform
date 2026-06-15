@@ -1,0 +1,348 @@
+﻿javac.exe : C:\Users\balut
+\OneDrive\Desktop\pcp 
+java 4\src\service\AuthSer
+vice.java:8: error: 
+cannot find symbol
+At line:1 char:165
++ ... y FullName; & 
+javac.exe -cp 
+"lib/gson-2.10.1.jar" -d 
+bin $files 2>&1  ...
++                 ~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo        
+      : NotSpecified: (C  
+  :\Users\balut\...not    
+ find symbol:String) [    
+], RemoteException
+    + FullyQualifiedError 
+   Id : NativeCommandErr  
+  or
+ 
+private Map<String, User> 
+users;
+                    ^
+  symbol:   class User
+  location: class 
+AuthService
+C:\Users\balut\OneDrive\De
+sktop\pcp java 4\src\servi
+ce\AuthService.java:10: 
+error: cannot find symbol
+private User currentUser;
+        ^
+  symbol:   class User
+  location: class 
+AuthService
+C:\Users\balut\OneDrive\De
+sktop\pcp java 4\src\servi
+ce\AuthService.java:44: 
+error: cannot find symbol
+public User login(String 
+email, String password) 
+throws 
+InvalidLoginException {
+       ^
+  symbol:   class User
+  location: class 
+AuthService
+C:\Users\balut\OneDrive\De
+sktop\pcp java 4\src\servi
+ce\AuthService.java:62: 
+error: cannot find symbol
+public void 
+registerStudent(Student 
+student) {
+                          
+  ^
+  symbol:   class Student
+  location: class 
+AuthService
+C:\Users\balut\OneDrive\De
+sktop\pcp java 4\src\servi
+ce\AuthService.java:67: 
+error: cannot find symbol
+public void registerRecrui
+ter(Recruiter recruiter) {
+                          
+    ^
+  symbol:   class 
+Recruiter
+  location: class 
+AuthService
+C:\Users\balut\OneDrive\De
+sktop\pcp java 4\src\servi
+ce\AuthService.java:76: 
+error: cannot find symbol
+public User 
+getCurrentUser() {
+       ^
+  symbol:   class User
+  location: class 
+AuthService
+C:\Users\balut\OneDrive\De
+sktop\pcp java 4\src\servi
+ce\AuthService.java:80: 
+error: cannot find symbol
+public Map<String, User> 
+getAllUsers() {
+                   ^
+  symbol:   class User
+  location: class 
+AuthService
+C:\Users\balut\OneDrive\De
+sktop\pcp java 4\src\servi
+ce\AuthService.java:84: 
+error: cannot find symbol
+public List<Student> 
+getAllStudents() {
+            ^
+  symbol:   class Student
+  location: class 
+AuthService
+C:\Users\balut\OneDrive\De
+sktop\pcp java 4\src\servi
+ce\AuthService.java:94: 
+error: cannot find symbol
+public List<Recruiter> 
+getAllRecruiters() {
+            ^
+  symbol:   class 
+Recruiter
+  location: class 
+AuthService
+C:\Users\balut\OneDrive\De
+sktop\pcp java 
+4\src\Main.java:6: error: 
+cannot find symbol
+        CampusServer 
+server = new 
+CampusServer();
+        ^
+  symbol:   class 
+CampusServer
+  location: class Main
+C:\Users\balut\OneDrive\De
+sktop\pcp java 
+4\src\Main.java:6: error: 
+cannot find symbol
+        CampusServer 
+server = new 
+CampusServer();
+                          
+        ^
+  symbol:   class 
+CampusServer
+  location: class Main
+C:\Users\balut\OneDrive\De
+sktop\pcp java 4\src\serve
+r\CampusServer.java:374: 
+error: calculateMatchScore
+(String,String) has 
+private access in 
+CareerGuidanceEngine
+                jobJson.ad
+dProperty("matchScore", gu
+idanceEngine.calculateMatc
+hScore(
+                          
+                          
+            ^
+C:\Users\balut\OneDrive\De
+sktop\pcp java 4\src\servi
+ce\AuthService.java:21: 
+error: cannot find symbol
+        Student student = 
+Student.fromString(line);
+        ^
+  symbol:   class Student
+  location: class 
+AuthService
+C:\Users\balut\OneDrive\De
+sktop\pcp java 4\src\servi
+ce\AuthService.java:21: 
+error: cannot find symbol
+        Student student = 
+Student.fromString(line);
+                          
+^
+  symbol:   variable 
+Student
+  location: class 
+AuthService
+C:\Users\balut\OneDrive\De
+sktop\pcp java 4\src\servi
+ce\AuthService.java:29: 
+error: cannot find symbol
+        Recruiter 
+recruiter = Recruiter.from
+String(line);
+        ^
+  symbol:   class 
+Recruiter
+  location: class 
+AuthService
+C:\Users\balut\OneDrive\De
+sktop\pcp java 4\src\servi
+ce\AuthService.java:29: 
+error: cannot find symbol
+        Recruiter 
+recruiter = Recruiter.from
+String(line);
+                          
+    ^
+  symbol:   variable 
+Recruiter
+  location: class 
+AuthService
+C:\Users\balut\OneDrive\De
+sktop\pcp java 4\src\servi
+ce\AuthService.java:37: 
+error: cannot find symbol
+        Admin admin = 
+Admin.fromString(line);
+        ^
+  symbol:   class Admin
+  location: class 
+AuthService
+C:\Users\balut\OneDrive\De
+sktop\pcp java 4\src\servi
+ce\AuthService.java:37: 
+error: cannot find symbol
+        Admin admin = 
+Admin.fromString(line);
+                      ^
+  symbol:   variable Admin
+  location: class 
+AuthService
+C:\Users\balut\OneDrive\De
+sktop\pcp java 4\src\servi
+ce\AuthService.java:45: 
+error: cannot find symbol
+    User user = 
+users.get(email);
+    ^
+  symbol:   class User
+  location: class 
+AuthService
+C:\Users\balut\OneDrive\De
+sktop\pcp java 4\src\servi
+ce\AuthService.java:85: 
+error: cannot find symbol
+    List<Student> 
+students = new 
+ArrayList<>();
+         ^
+  symbol:   class Student
+  location: class 
+AuthService
+C:\Users\balut\OneDrive\De
+sktop\pcp java 4\src\servi
+ce\AuthService.java:86: 
+error: cannot find symbol
+    for (User user : 
+users.values()) {
+         ^
+  symbol:   class User
+  location: class 
+AuthService
+C:\Users\balut\OneDrive\De
+sktop\pcp java 4\src\servi
+ce\AuthService.java:87: 
+error: cannot find symbol
+        if (user 
+instanceof Student) {
+                          
+  ^
+  symbol:   class Student
+  location: class 
+AuthService
+C:\Users\balut\OneDrive\De
+sktop\pcp java 4\src\servi
+ce\AuthService.java:88: 
+error: cannot find symbol
+            
+students.add((Student) 
+user);
+                          
+^
+  symbol:   class Student
+  location: class 
+AuthService
+C:\Users\balut\OneDrive\De
+sktop\pcp java 4\src\servi
+ce\AuthService.java:95: 
+error: cannot find symbol
+    List<Recruiter> 
+recruiters = new 
+ArrayList<>();
+         ^
+  symbol:   class 
+Recruiter
+  location: class 
+AuthService
+C:\Users\balut\OneDrive\De
+sktop\pcp java 4\src\servi
+ce\AuthService.java:96: 
+error: cannot find symbol
+    for (User user : 
+users.values()) {
+         ^
+  symbol:   class User
+  location: class 
+AuthService
+C:\Users\balut\OneDrive\De
+sktop\pcp java 4\src\servi
+ce\AuthService.java:97: 
+error: cannot find symbol
+        if (user 
+instanceof Recruiter) {
+                          
+  ^
+  symbol:   class 
+Recruiter
+  location: class 
+AuthService
+C:\Users\balut\OneDrive\De
+sktop\pcp java 4\src\servi
+ce\AuthService.java:98: 
+error: cannot find symbol
+            recruiters.add
+((Recruiter) user);
+                          
+  ^
+  symbol:   class 
+Recruiter
+  location: class 
+AuthService
+C:\Users\balut\OneDrive\De
+sktop\pcp java 4\src\servi
+ce\CareerGuidanceEngine.ja
+va:14: error: 
+incompatible types: 
+cannot infer type 
+arguments for HashSet<>
+    List<String> 
+missingSkills = new 
+HashSet<>();
+                          
+                  ^
+    reason: no 
+instance(s) of type 
+variable(s) E exist so 
+that HashSet<E> conforms 
+to List<String>
+  where E is a 
+type-variable:
+    E extends Object 
+declared in class HashSet
+Note: C:\Users\balut\OneDr
+ive\Desktop\pcp java 4\src
+\server\CampusServer.java 
+uses unchecked or unsafe 
+operations.
+Note: Recompile with 
+-Xlint:unchecked for 
+details.
+28 errors

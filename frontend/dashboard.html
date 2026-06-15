@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - CampusConnect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dashboard-body">
+    <div class="app-shell">
+        <header class="topbar">
+            <button class="mobile-menu" onclick="toggleSidebar()" aria-label="Toggle menu">☰</button>
+            <a class="brand" href="/dashboard.html">
+                <span class="brand-mark">🎓</span>
+                <span>Campus<span>Connect</span></span>
+            </a>
+            <div class="topbar-actions">
+                <button class="icon-button" onclick="navigate('notifications')" aria-label="Notifications">🔔</button>
+                <div class="user-chip">
+                    <span class="avatar" id="user-avatar">U</span>
+                    <span><strong id="user-name"></strong><small id="user-role"></small></span>
+                </div>
+            </div>
+        </header>
+        <aside class="sidebar" id="sidebar">
+            <p class="menu-label">MENU</p>
+            <nav id="side-nav"></nav>
+            <button class="nav-item signout" onclick="logout()"><span>🚪</span>Sign Out</button>
+        </aside>
+        <main class="workspace">
+            <div id="content-area" class="content-area">
+                <div class="loading-card">Loading your dashboard...</div>
+            </div>
+        </main>
+    </div>
+    <div id="toast" class="toast" role="status"></div>
+    <script src="app.js"></script>
+</body>
+</html>

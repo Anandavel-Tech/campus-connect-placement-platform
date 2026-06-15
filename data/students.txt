@@ -1,0 +1,3 @@
+U1781507320871|Ananda vel |anandavel2k6@gmail.com|123456789|student|true|E0324005|AIDA|8.00|PYTHON,FULLSTACK,C,C++||2024
+DEMO_STUDENT|Arjun Sharma|student@campusconnect.com|student123|student|true|CC2026001|Computer Science|8.70|Java, Python, React, SQL, Spring Boot|Final-year student focused on full-stack development.|2024
+U1781531159928|Ananda vel B|anandavel@gmail.com|123456789|student|true|E0324005|AIDA|8.00|python, fullstack,c,c++||2024
